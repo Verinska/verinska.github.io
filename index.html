@@ -44,7 +44,10 @@
               <a class="nav-link" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="https://wa.me/+6285295699956"> <img src="img/wa.png" width="35" alt="Contact WA" /> </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"><img src="img/email.png" width="30" class="rounded-circle" alt="Contact Email" /></a>
             </li>
           </ul>
         </div>
@@ -75,10 +78,10 @@
         </div>
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-4" data-aos="fade-right">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, odit eius adipisci vero placeat animi fuga dicta? Id, deleniti ducimus!</p>
+            <p>Halo ! saya sangat senang anda mengunjungi halaman ini, saya adalah seorang data analyst dengan gairah yang tinggi dalam mengobservasi suatu data, mengumpulkan & menjadikannya informasi atau laporan yang mudah dipahami untuk mengambil suatu kebijakan / keputusan strategis kedepan, tapi ingat untuk mengambil keputusan jangan mempercayai begitu saja sebuah data atau informasi tapi gunakan juga kecerdasan dan keputusan anda sendiri &#128513; </p>
           </div>
           <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga qui est officia, atque repudiandae nisi ducimus? Quas, fugiat error dicta ea laudantium nobis praesentium animi?</p>
+            <p>saya memiliki pengalaman lebih dari 5 tahun dalam data analytics mulai dari perancangan & pemeliharaan database, integrasi data (extract transform load), visualisasi data, hingga pendistribusian sebuah informasi secara terjadwal (scheduler). Jangan ragu untuk menghubungi saya jika Anda memiliki pertanyaan, proyek, atau hanya ingin berbicara tentang sepakbola &#128513; </p>
           </div>
         </div>
       </div>
@@ -105,7 +108,7 @@
             <div class="card" data-aos="flip-left">
               <img src="img/projects/siJalu.jpg" class="card-img-top" alt="Dashboard Kredit" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Dashboard Loan Performance (Portofolio, Growth, Achievement, Non Performing Loan, etc) </p>
               </div>
             </div>
           </div>
@@ -113,7 +116,7 @@
             <div class="card" data-aos="flip-left" data-aos-delay="100">
               <img src="img/projects/report.jpg" class="card-img-top" alt="Soft Copy Report" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Automatic Financial Report (Excel, Pdf, Image) Distribution (Email, ftp, Whatsapp) </p>
               </div>
             </div>
           </div>
@@ -121,25 +124,10 @@
             <div class="card" data-aos="flip-left" data-aos-delay="200">
               <img src="img/projects/hidroponik.jpg" class="card-img-top" alt="My Hidroponik" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Hidroponik Skala Rumah Tangga</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos-delay="300">
-              <img src="img/projects/timwork.jpg" class="card-img-top" alt="Teamwork" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos-delay="400">
-              <img src="img/projects/leadershsip.jpg" class="card-img-top" alt="Leadership" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -169,13 +157,7 @@
             <a href="#"><img src="img/gallery/thumbnail/2.jpg" alt="Gambar 2" class="img-fluid gallery-img" /></a>
           </div>
           <div class="col-md-3">
-            <a href="#"><img src="img/gallery/thumbnail/3.jpg" alt="Gambar 3" class="img-fluid gallery-img" /></a>
-          </div>
-          <div class="col-md-3">
             <a href="#"><img src="img/gallery/thumbnail/4.jpg" alt="Gambar 4" class="img-fluid gallery-img" /></a>
-          </div>
-          <div class="col-md-3">
-            <a href="#"><img src="img/gallery/thumbnail/5.jpg" alt="Gambar 5" class="img-fluid gallery-img" /></a>
           </div>
           <div class="col-md-3">
             <a href="#"><img src="img/gallery/thumbnail/6.jpg" alt="Gambar 6" class="img-fluid gallery-img" /></a>
@@ -267,7 +249,7 @@
       const galleryImage = document.querySelectorAll(".gallery-img");
       galleryImage.forEach((img, i) => {
         img.dataset.aos = "fade-down";
-        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDelay = i * 50;
         img.dataset.aosDuration = 1000;
       });
       // You can also pass an optional settings object
@@ -301,7 +283,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
     <script>
       gsap.registerPlugin(TextPlugin);
-      gsap.to(".lead", { duration: 2, delay: 1.5, text: "Data Analyst | Data Engineer | Farmer | Slow Starter" });
+      gsap.to(".lead", { duration: 2, delay: 1.5, text: "Data Analyst | Data Engineer | Farmer" });
       // gsap.from(".jumbotron img", { opacity: 0, y: -100, duration: 1, ease: "bounce" });
       gsap.from(".jumbotron img", { opacity: 0, rotateY: 360, duration: 1 });
       gsap.from(".navbar", { opacity: 0, y: "-100%", duration: 1.5, ease: "bounce" });
